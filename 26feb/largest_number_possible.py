@@ -1,7 +1,7 @@
 tes=int(input())
 for t in range(tes):
     n,s=map(int,input().split())
-    if s/n>9 or s==0:
+    if s/n>9 and s!=0:
         print(-1)
     else:
         z={}
