@@ -1,2 +1,3 @@
 from collections import defaultdict
 li=list(map(int,input().split()))
+bin(n).replace("0b", "")  
